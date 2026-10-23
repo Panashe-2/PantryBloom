@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"
+    android:layout_marginBottom="10dp" android:background="@drawable/bg_card" android:padding="18dp">
+    <TextView android:id="@+id/recipe_title" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="@color/ink" android:textSize="18sp" android:textStyle="bold"/>
+    <TextView android:id="@+id/recipe_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="6dp" android:text="All ingredients available" android:textColor="@color/plum" android:textSize="13sp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"
+        android:text="View recipe  ›" android:textSize="13sp" android:textColor="@color/coral"/>
+</LinearLayout>
