@@ -40,8 +40,4 @@ PantryBloom keeps a list of ingredients at home and suggests meals using only wh
 
 Also test empty names, zero amounts, invalid dates, the recipe-detail screen and the Settings preference.
 
-## GitHub and submission
-Use a separate GitHub repository for this project and commit real development changes as they happen. The assignment requires at least ten meaningful commits, a narrated **5–7 minute** video and a report containing real screenshots and the public GitHub link. Put the project, report and MP4 together in one ZIP smaller than 50 MB.
 
-## Current project status
-This is a **starting point for individual development**, not a completed or emulator-tested submission. The included Java matching checks were run separately, but the complete Android build, Room code generation and emulator behaviour must still be checked in Android Studio.
