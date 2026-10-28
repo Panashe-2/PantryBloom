@@ -1,35 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/cream">
-    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:padding="20dp" android:orientation="vertical">
-        <TextView android:id="@+id/edit_title" android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:text="Add Ingredient" android:textColor="@color/plum" android:textSize="27sp" android:textStyle="bold"/>
-        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"
-            android:text="Give your ingredient a name, amount and unit." android:textColor="@color/muted"/>
-        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:layout_marginTop="22dp" android:text="Ingredient name *" android:textColor="@color/ink"/>
-        <EditText android:id="@+id/name_input" android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:hint="e.g. apple" android:singleLine="true" android:inputType="textCapWords"/>
-        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:layout_marginTop="16dp" android:text="Amount *" android:textColor="@color/ink"/>
-        <EditText android:id="@+id/amount_input" android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:hint="e.g. 200" android:singleLine="true" android:inputType="numberDecimal"/>
-        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"
-            android:text="Unit *" android:textColor="@color/ink"/>
-        <Spinner android:id="@+id/unit_input" android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:background="@drawable/bg_soft" android:padding="12dp"/>
-        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"
-            android:text="Expiry (optional)" android:textColor="@color/ink"/>
-        <EditText android:id="@+id/expiry_input" android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:hint="YYYY-MM-DD" android:singleLine="true" android:inputType="date"/>
-        <Button android:id="@+id/save_button" android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:layout_marginTop="24dp" android:text="Save ingredient" android:textAllCaps="false"
-            android:background="@drawable/bg_action" android:textColor="@color/white"/>
-        <Button android:id="@+id/delete_button" android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:layout_marginTop="8dp" android:text="Delete ingredient" android:textAllCaps="false"
-            android:backgroundTint="@color/pale_rose" android:textColor="@color/warning" android:visibility="gone"/>
-        <Button android:id="@+id/cancel_button" android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:layout_marginTop="8dp" android:text="Back" android:textAllCaps="false"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/cream">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="20dp" android:orientation="vertical">
+        <TextView android:id="@+id/edit_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Add Ingredient" android:textColor="@color/plum" android:textSize="27sp" android:textStyle="bold" android:drawableStart="@drawable/ic_leaf_primary" android:drawablePadding="9dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Give your ingredient a name, amount and unit." android:textColor="@color/muted"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:text="Ingredient name *" android:textColor="@color/ink"/>
+        <EditText android:id="@+id/name_input" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="e.g. apple" android:singleLine="true" android:inputType="textCapWords"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Amount *" android:textColor="@color/ink"/>
+        <EditText android:id="@+id/amount_input" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="e.g. 200" android:singleLine="true" android:inputType="numberDecimal"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Unit *" android:textColor="@color/ink"/>
+        <Spinner android:id="@+id/unit_input" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/bg_soft" android:padding="12dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Expiry (optional)" android:textColor="@color/ink"/>
+        <EditText android:id="@+id/expiry_input" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="YYYY-MM-DD" android:singleLine="true" android:inputType="date"/>
+        <Button android:id="@+id/save_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="Save ingredient" android:textAllCaps="false" android:background="@drawable/bg_action" android:textColor="@color/white" android:drawableStart="@drawable/ic_save_white" android:drawablePadding="9dp" android:minHeight="52dp" android:paddingStart="18dp" android:paddingEnd="18dp" android:backgroundTint="@null"/>
+        <Button android:id="@+id/delete_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Delete ingredient" android:textAllCaps="false" android:backgroundTint="@null" android:textColor="@color/warning" android:visibility="gone" android:drawableStart="@drawable/ic_bin_red" android:drawablePadding="9dp" android:minHeight="52dp" android:paddingStart="18dp" android:paddingEnd="18dp" android:background="@drawable/bg_soft" android:contentDescription="Delete ingredient from pantry"/>
+        <Button android:id="@+id/cancel_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Back" android:textAllCaps="false" android:drawableStart="@drawable/ic_back_primary" android:drawablePadding="9dp" android:minHeight="52dp" android:paddingStart="18dp" android:paddingEnd="18dp" android:background="@drawable/bg_soft" android:backgroundTint="@null" android:textColor="@color/plum"/>
     </LinearLayout>
 </ScrollView>

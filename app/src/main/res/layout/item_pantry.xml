@@ -1,13 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"
-    android:layout_marginBottom="10dp" android:background="@drawable/bg_card" android:padding="16dp">
-    <TextView android:id="@+id/item_name" android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:textColor="@color/ink" android:textSize="17sp" android:textStyle="bold"/>
-    <TextView android:id="@+id/item_amount" android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:layout_marginTop="5dp" android:textColor="@color/muted" android:textSize="14sp"/>
-    <TextView android:id="@+id/item_expiry" android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:layout_marginTop="5dp" android:textColor="@color/warning" android:textStyle="bold" android:textSize="12sp"/>
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:layout_marginTop="6dp" android:text="Tap to edit" android:textColor="@color/coral" android:textSize="12sp"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginBottom="10dp" android:background="@drawable/bg_card" android:padding="16dp">
+    <TextView android:id="@+id/item_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/ink" android:textSize="17sp" android:textStyle="bold" android:drawableStart="@drawable/ic_leaf_primary" android:drawablePadding="9dp"/>
+    <TextView android:id="@+id/item_amount" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:textColor="@color/muted" android:textSize="14sp"/>
+    <TextView android:id="@+id/item_expiry" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:textColor="@color/warning" android:textStyle="bold" android:textSize="12sp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="Tap to edit" android:textColor="@color/coral" android:textSize="12sp" android:drawableStart="@drawable/ic_edit_accent" android:drawablePadding="9dp"/>
 </LinearLayout>
